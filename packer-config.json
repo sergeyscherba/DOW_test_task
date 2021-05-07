@@ -7,8 +7,9 @@
         "source_ami_filter": {
                         "filters": {
                                 "name": "amzn*x86*"
-        },
+        		},	
                         "owners": ["amazon"],
+			"architecture": "x86_64",
                         "most_recent": true
         },
 		"instance_type": "t2.micro",
