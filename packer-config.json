@@ -15,7 +15,7 @@
 		"instance_type": "t2.micro",
         "ssh_username": "ec2-user",
         "ami_name": "packer {{timestamp}}",
-        "ssh_keypair_name": "",
+        "ssh_keypair_name": "packer_key_pair",
         "ssh_private_key_file": "/home/fedora/.ssh/packer_key_pair.pem",
         "tags": {
 			"test": "test"
