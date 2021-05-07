@@ -6,16 +6,16 @@
 		"region": "{{user `aws_default_region`}}",
         "source_ami_filter": {
                         "filters": {
-                                "name": "amzn*x86*"
-        		},	
-                        "owners": ["amazon"],
-			"architecture": "x86_64",
+                         "name": "amzn2*",
+			"architecture": "x86_64"
+			},
+			"owners": ["amazon"],
                         "most_recent": true
         },
 		"instance_type": "t2.micro",
         "ssh_username": "ec2-user",
         "ami_name": "packer {{timestamp}}",
-        "ssh_keypair_name": "packer_key_pair",
+        "ssh_keypair_name": "",
         "ssh_private_key_file": "/home/fedora/.ssh/packer_key_pair.pem",
         "tags": {
 			"test": "test"
