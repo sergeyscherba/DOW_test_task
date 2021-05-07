@@ -4,7 +4,7 @@ Following guide is written for OS Fedora 34 to build AWS AMI using Hashicorp Pac
 - _htop_ and _iotop_ packages pre-installed;
 - tags _[test: test]_ added; 
 - packer outputs resulting AMI ID to the file _manifest.json_;
-- 
+
 __Prerequisites__
 - AWS account with created key-pair named _packer_key_pair_;
 - Cloud instance/VM with Fedora 34 OS running;
