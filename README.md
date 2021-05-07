@@ -8,7 +8,7 @@ Following guide is written for OS Fedora 34 to build AWS AMI using Hashicorp Pac
 __Prerequisites__
 - AWS account with created key-pair named _packer_key_pair_;
 - Cloud instance/VM with Fedora 34 OS running;
-- private key named _packer_key_pair.pem_ located at your Fedora Instance/VM;
+- private key named _packer_key_pair.pem_ downloaded form AWS console and located at your Fedora Instance/VM;
 
 In order to successfully build the image you need to follow the next steps: 
 - Install Packer: 
